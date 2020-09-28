@@ -15,7 +15,7 @@ Create *.env* file in project's root directory and add following:
 SECRET_KEY=\x80H\x16m6\xf6VE;\xc0T\x8ez\xbc\xff,#\xf2\xb6\x0f\xc5\x19\xd4
 POSTGRES_LOCAL_BASE=postgresql://'user':'password'@'host':'port'/
 
-Generate your SECRET_KEY using ```python os.urandom()```
+Generate your SECRET_KEY using ```os.urandom()```
 
 ### Create DB
 
