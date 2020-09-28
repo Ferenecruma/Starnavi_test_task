@@ -102,7 +102,6 @@ class TestAuthBlueprint(BaseTestCase):
 
             self.assertTrue(data['status'] == 'success')
             self.assertTrue(data['data'] is not None)
-            self.assertTrue(data['data']['user_id'] == 2)
             self.assertTrue(isinstance(data['data']['last_request'], str))
             self.assertEqual(response.status_code, 200)
 
