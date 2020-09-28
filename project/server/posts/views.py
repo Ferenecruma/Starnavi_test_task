@@ -105,7 +105,7 @@ posts_blueprint.add_url_rule(
 )
 
 posts_blueprint.add_url_rule(
-    '/post/like',
+    '/post/like-unlike',
     view_func=post_like_view,
     methods=['POST']
 )

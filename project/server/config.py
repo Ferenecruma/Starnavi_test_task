@@ -3,7 +3,7 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv() # loading variables form .env
 
 POSTGRES_LOCAL_BASE = os.getenv('POSTGRES_LOCAL_BASE')
 DATABASE_NAME = 'flask_jwt_auth'

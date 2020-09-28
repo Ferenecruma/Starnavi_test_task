@@ -25,6 +25,9 @@ class UserAPI(MethodView):
                 responseObject = UserAPI.get_user_by_id(resp)
                 if responseObject['data']['is_superuser']:
                     responseObject = UserAPI.get_user_by_id(user_id)
+                    # deleting unrequested data
+                    del responseObject['data']['user_id']
+                    del responseObject['data']['is_superuser']
                 else:
                     responseObject = {
                         'status': 'fail',
@@ -82,7 +85,7 @@ class LikesStats(MethodView):
                     try:
                         start = self.query_stirng_to_date(date_from)
                         end = self.query_stirng_to_date(date_to)
-                    except ValueError:
+                    except:
                         responseObject = {
                             'status': 'fail',
                             'message': 'Not valid time interval provided'
