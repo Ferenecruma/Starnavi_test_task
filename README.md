@@ -35,6 +35,11 @@ $ python manage.py create_db
 $ python manage.py db init
 $ python manage.py db migrate
 ```
+### Testing
+
+```sh
+$ python manage.py test
+```
 
 ### Run the Application
 
@@ -43,11 +48,6 @@ $ python manage.py runserver
 ```
 Access the application at the address [http://localhost:5000/](http://localhost:5000/)
 
-### Testing
-
-```sh
-$ python manage.py test
-```
 
 ### Implemented Functionality
 
