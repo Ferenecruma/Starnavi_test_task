@@ -43,6 +43,12 @@ $ python manage.py runserver
 ```
 Access the application at the address [http://localhost:5000/](http://localhost:5000/)
 
+### Testing
+
+```sh
+$ python manage.py test
+```
+
 ### Implemented Functionality
 
 - User Registration 
@@ -122,10 +128,6 @@ Access the application at the address [http://localhost:5000/](http://localhost:
 }```
 
 
-### Testing
 
-```sh
-$ python manage.py test
-```
 
 
