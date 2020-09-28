@@ -1,6 +1,6 @@
 # Starnavi_test_task
 
-Test task: Python Developer. Social Network a simple REST API.
+Test task: Python Developer. Social Network, simple REST API.
 
 ### Basics
 
