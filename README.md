@@ -68,7 +68,7 @@ Access the application at the address [http://localhost:5000/](http://localhost:
 #### User Registration
 
 - request type : POST
-- endpoint : '/auth/register'
+- endpoint : /auth/register
 - request body: ```{'email'='joe@gmail.com','password'='123456'}```
 - response: ```{
     "message": "Successfully registered.",
@@ -78,7 +78,7 @@ Access the application at the address [http://localhost:5000/](http://localhost:
 #### User Login
 
 - request type : POST
-- endpoint :  '/auth/login'
+- endpoint :  /auth/login
 - request body: ```{'email'='joe@gmail.com', 'password'='123456'}```
 - response: ```{
     "auth_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MDEyODI2MDQsImlhdCI6MTYwMTI4MDgwNCwic3ViIjo0fQ.FNtKLU2TsArvh0FJIT9KjWyQJvZyijr7GqcJ9ef9N6c",
@@ -89,7 +89,7 @@ Access the application at the address [http://localhost:5000/](http://localhost:
 #### Post Creation
 
 - request type : POST
-- endpoint : '/post/create'
+- endpoint : /post/create
 - request body: ```{ 'post_text'='Hello, this is my new post'} ```
 - response: ```{
     "message": "Added new post.",
